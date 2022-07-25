@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --primary: #1781d7;
+    --secondary: #A9BCD0;
+    --light: #fff;
+    --semi-light: #D8DBE2;
+    --gray: #373F51;
+    --dark: #1B1B1E;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+body {
+    background-color: var(--primary);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: white;
+}
+
+.container h1 {
+    font-size: 2rem;
+    color: var(--primary);;   
+    margin-bottom: 1rem;
+}
+
+.container form .input-box + .input-box{
+    margin-top: 1rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: .35rem;
+}
+.input-box label {
+    font-size: 1rem;
+    color: var(--gray);
+    text-transform: capitalize;
+}
+
+.input-box input {
+    border: 1px solid var(--gray);
+    box-shadow: 0 0 5px rgba(0,0,0,.05);
+    padding: .25rem .35rem;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    border-radius: 100px;
+    padding: .5rem 3rem;
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--light);
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0,0,0,.1);
+    margin-top: 2rem;
+    transition: .3s;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+.other{
+    margin-top: .5rem;
+    display: block;
+    font-size: .8rem;
+    text-align: center;
+    color: var(--gray);
+    transition: .3s;
+}
+
+.other:hover{
+    color: var(--primary);
+}
+
+
+textarea {
+    resize: none;
+    border: 1px solid var(--gray);
+    box-shadow: 0 0 5px rgba(0,0,0,.05);
+    padding: .5rem .75rem;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    font-size: .9rem;
+    height: 6rem;
+    font-family: inherit;;
+}
+

@@ -1,0 +1,2 @@
+<?php 
+$KEY = 'edwingantengsekalihiahiahia weir waer ewijroncweon nhwaericw weiuh weh wh uihwerh wuieahncieciuwbvui bwuiebruiwbevyrui bawiebrciawevir aweircbwaeicbryviuwaebyirbwceirbiawueb hrcuiwabevruicbewaibrhiuwebhricbwheb irbhaiechnriouwaebhvriownehrouicbhewaoirbhewaiubrhc iuawehbroiwbheribawheirbhc weirbhviwb';
